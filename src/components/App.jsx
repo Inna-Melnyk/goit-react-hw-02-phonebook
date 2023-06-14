@@ -48,7 +48,6 @@ export class App extends Component {
       <Container>
         <ContactForm
           title={'phonebook'}
-          value="{this.state}"
           onSubmit={this.addContact}
         />
 
